@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.10.0",
-    "phantomjs": "~1.9.2"
+    "phantomjs": "~1.9.2",
     "webdriverio": "^3.4.0"
   },
   "peerDependencies": {
