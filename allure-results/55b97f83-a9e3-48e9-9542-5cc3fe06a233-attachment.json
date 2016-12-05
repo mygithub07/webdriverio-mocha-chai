@@ -1,0 +1,24 @@
+{
+    "state": null,
+    "sessionId": "bb33c82f-05a0-429e-94cd-24b302b1569d",
+    "hCode": 2061748780,
+    "value": {
+        "applicationCacheEnabled": true,
+        "rotatable": false,
+        "handlesAlerts": true,
+        "databaseEnabled": true,
+        "version": "43.0.4",
+        "platform": "MAC",
+        "nativeEvents": false,
+        "acceptSslCerts": true,
+        "webdriver.remote.sessionid": "bb33c82f-05a0-429e-94cd-24b302b1569d",
+        "webStorageEnabled": true,
+        "locationContextEnabled": true,
+        "browserName": "firefox",
+        "takesScreenshot": true,
+        "javascriptEnabled": true,
+        "cssSelectorsEnabled": true
+    },
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

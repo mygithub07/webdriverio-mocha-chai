@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > h3"
+}

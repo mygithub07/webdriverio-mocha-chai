@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1480912219319" stop="1480912226367">
+	<name>config page config page</name>
+	<title>config page config page</title>
+	<test-cases>
+		<test-case start="1480912219386" stop="1480912226225" status="passed">
+			<name>should click selenium</name>
+			<title>should click selenium</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1480912219390" stop="" status="">
+					<name>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/url</name>
+					<title>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/url</title>
+					<attachments>
+						<attachment title="Request" source="7230beed-6ef5-4769-a7d2-6c9b6d80fc3b-attachment.json" type="application/json" size="80"/>
+					</attachments>
+					<steps>
+						<step start="1480912219397" stop="1480912225888" status="passed">
+							<name>POST /wd/hub/session/1c515f0a-4f81-43e6-a483-4c96955a7eb6/url</name>
+							<title>POST /wd/hub/session/1c515f0a-4f81-43e6-a483-4c96955a7eb6/url</title>
+							<attachments>
+								<attachment title="Request" source="d6110c1c-42a7-4e09-a9ad-839a867ce470-attachment.json" type="application/json" size="80"/>
+								<attachment title="Response" source="66fc19ac-b618-4eb3-b6db-415ddaee87a2-attachment.json" type="application/json" size="196"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+						<step start="1480912225946" stop="1480912226089" status="passed">
+							<name>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/elements</name>
+							<title>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/elements</title>
+							<attachments>
+								<attachment title="Request" source="1d4f7087-0ead-4c41-87cd-33f023998db8-attachment.json" type="application/json" size="63"/>
+								<attachment title="Response" source="ab4b3eb5-172c-4cb1-94c3-66953d1c5ca7-attachment.json" type="application/json" size="246"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+						<step start="1480912226097" stop="1480912226214" status="passed">
+							<name>GET /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/element/0/text</name>
+							<title>GET /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/element/0/text</title>
+							<attachments>
+								<attachment title="Response" source="f03dda36-2f0d-431c-982c-eaf9e80315e0-attachment.json" type="application/json" size="214"/>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1480912226228" stop="1480912226365" status="passed">
+			<name>should assert sub heading</name>
+			<title>should assert sub heading</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1480912226234" stop="1480912226286" status="passed">
+					<name>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/elements</name>
+					<title>POST /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/elements</title>
+					<attachments>
+						<attachment title="Request" source="dbbc7b73-b26c-4a01-bb7c-36edab7791c8-attachment.json" type="application/json" size="139"/>
+						<attachment title="Response" source="d28a2ffc-8742-4d08-b726-c98c95b2b37a-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1480912226288" stop="1480912226353" status="passed">
+					<name>GET /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/element/1/text</name>
+					<title>GET /wd/hub/session/b2a7f650-2c60-4eee-b206-0725860a165b/element/1/text</title>
+					<attachments>
+						<attachment title="Response" source="16500d19-1a94-49a4-b630-da06d1d6818b-attachment.json" type="application/json" size="197"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
