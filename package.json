@@ -1,50 +1,27 @@
 {
-  "name": "grunt-mocha-webdriver",
-  "description": "Grunt task to run Mocha tests against PhantomJS or Saucelabs",
-  "version": "1.2.2",
+  "name": "wdio-demo",
+  "version": "1.0.0",
+  "description": "demo project to test WebdriverIO integration with Jenkins",
+  "main": "index.js",
   "scripts": {
     "test": "wdio ./wdio.conf.js"
   },
-  "author": "Justin Reidy <jmreidy@rzrsharp.net>",
-  "contributors": [
-    {
-      "name": "Justin Reidy",
-      "email": "jmreidy@rzrsharp.net"
-    }
-  ],
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmreidy/grunt-mocha-webdriver.git"
+    "url": "https://github.com/mygithub07/webdriverio-mocha-chai.git"
   },
-  "bugs": "https://github.com/jmreidy/grunt-mocha-webdriver/issues/",
-  "keywords": [
-    "grunt",
-    "gruntplugin",
-    "mocha",
-    "e2e",
-    "webdriver",
-    "phantomjs",
-    "saucelabs"
-  ],
-  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christian-bromann/wdio-demo/issues"
+  },
+  "homepage": "https://github.com/mygithub07/webdriverio-mocha-chai",
   "dependencies": {
-    "wd": "^0.3.3",
-    "async": "^0.9.0",
     "mocha": "^1.20.0",
     "sauce-tunnel": "^2.1.0",
-    "selenium-launcher": "git+https://github.com/wookiehangover/nodejs-selenium-launcher.git"
+    "jasmine": "^2.3.1"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.10.0",
-    "phantomjs": "~1.9.2",
     "webdriverio": "^3.4.0"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.0",
-    "phantomjs": "~1.9.2"
-  },
-  "engines": {
-    "node": ">= 0.8.0"
   }
 }
