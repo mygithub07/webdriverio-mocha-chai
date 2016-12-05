@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mocha Tests</title>
+	<!-- Mocha CSS -->
+	<link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+</head>
+<body>
+
+	<!-- Mocha fixture -->
+	<div id="mocha"></div>
+
+	<!-- Mocha -->
+	<script src="./node_modules/mocha/mocha.js"></script>
+	<script src="./node_modules/chai/chai.js"></script>
+
+	<!-- Define what test style to use – I like BDD! -->
+	<script>mocha.setup('bdd')</script>
+
+
+	<!-- Include all tests (and dependencies for them) -->
+	<script src="./mocha-test.js"></script>
+
+	<!-- Include the mocha-sauce client -->
+	<script src="./node_modules/mocha-sauce/client.js"></script>
+
+	<!-- Run the tests! -->
+	<script>
+		mochaSaucePlease(); // NAO!
+	</script>
+
+</div>
+</body>
+</html>

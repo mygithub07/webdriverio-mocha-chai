@@ -1,0 +1,67 @@
+{
+  "uid" : "8d85701a66675fa",
+  "name" : "should click on chrome tab",
+  "title" : "should click on chrome tab",
+  "time" : {
+    "start" : 1478552867897,
+    "stop" : 1478552868354,
+    "duration" : 457
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}",
+    "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - click.js:33:17\n    at click(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "time" : {
+      "start" : 1478552867899,
+      "stop" : 1478552868354,
+      "duration" : 455
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "f73e2acb-7246-440e-83d7-398bb9b0e793-attachment.json",
+      "type" : "application/json",
+      "size" : 232,
+      "uid" : "1292d4509f30419"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

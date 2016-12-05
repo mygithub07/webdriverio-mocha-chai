@@ -1,0 +1,67 @@
+{
+  "uid" : "979b8dce3648aea7",
+  "name" : "should click on chrome tab",
+  "title" : "should click on chrome tab",
+  "time" : {
+    "start" : 1478552896426,
+    "stop" : 1478552897160,
+    "duration" : 734
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+    "stackTrace" : "RuntimeError: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown\n    at element(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - click.js:33:17\n    at click(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/fad89906-d700-4f4a-8452-787140ce8b53/element",
+    "title" : "POST /wd/hub/session/fad89906-d700-4f4a-8452-787140ce8b53/element",
+    "time" : {
+      "start" : 1478552896430,
+      "stop" : 1478552897160,
+      "duration" : 730
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "cc3375e5-4387-4dca-94ac-193495b390e8-attachment.json",
+      "type" : "application/json",
+      "size" : 232,
+      "uid" : "15a90118c5109548"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

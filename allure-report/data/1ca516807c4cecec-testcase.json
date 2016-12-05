@@ -1,0 +1,91 @@
+{
+  "uid" : "1ca516807c4cecec",
+  "name" : "should select WinXP",
+  "title" : "should select WinXP",
+  "time" : {
+    "start" : 1478271808087,
+    "stop" : 1478271808220,
+    "duration" : 133
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a87fc0865a0eb7a9",
+    "name" : "config page config page",
+    "title" : "config page config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element",
+    "title" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element",
+    "time" : {
+      "start" : 1478271808089,
+      "stop" : 1478271808114,
+      "duration" : 25
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "175b5c4c-0429-4cd1-a6b2-46c601109547-attachment.json",
+      "type" : "application/json",
+      "size" : 127,
+      "uid" : "3658788ff9cf6efa"
+    }, {
+      "title" : "Response",
+      "source" : "5638e32c-6426-49d8-95c1-7985d481910a-attachment.json",
+      "type" : "application/json",
+      "size" : 222,
+      "uid" : "e71414965c400191"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/4/click",
+    "title" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/4/click",
+    "time" : {
+      "start" : 1478271808114,
+      "stop" : 1478271808205,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "ef580bef-e274-4a72-b1c0-71cb361164b2-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "d52632994058edf"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "config page config page"
+  }, {
+    "name" : "suite-title",
+    "value" : "config page config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

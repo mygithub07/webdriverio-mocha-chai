@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#main-content > div > ng-view > div > div.spc-item.choice-code.configurator-select.col-md-12 > div > ul > li.ng-scope.active"
+}

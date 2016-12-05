@@ -1,0 +1,121 @@
+{
+  "uid" : "7666050a2b513e12",
+  "name" : "should click on device menu",
+  "title" : "should click on device menu",
+  "time" : {
+    "start" : 1478552866375,
+    "stop" : 1478552866572,
+    "duration" : 197
+  },
+  "summary" : {
+    "attachments" : 5,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "NoSuchElement: An element could not be located on the page using the given search parameters.\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.getAttribute (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:38:12)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at elements(\"#desktop > div > div:nth-child(1) > div\") - getAttribute.js:48:17\n    at getAttribute(\"#desktop > div > div:nth-child(1) > div\", \"class\") - index.js:323:3"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "time" : {
+      "start" : 1478552866380,
+      "stop" : 1478552866421,
+      "duration" : 41
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "c3466d10-a30a-4ad1-aa73-d39c7075f1ff-attachment.json",
+      "type" : "application/json",
+      "size" : 110,
+      "uid" : "5015431d92b1ab0e"
+    }, {
+      "title" : "Response",
+      "source" : "077a466f-04d2-4568-a880-e80404621c96-attachment.json",
+      "type" : "application/json",
+      "size" : 222,
+      "uid" : "c6132729b33d9f46"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element/0/click",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element/0/click",
+    "time" : {
+      "start" : 1478552866421,
+      "stop" : 1478552866521,
+      "duration" : 100
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "91f44a7b-99ee-43d6-9428-213763a32b0c-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "4686f98887b6818f"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/elements",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/elements",
+    "time" : {
+      "start" : 1478552866536,
+      "stop" : 1478552866570,
+      "duration" : 34
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "e2845b1f-1984-4728-98ee-589ef973691a-attachment.json",
+      "type" : "application/json",
+      "size" : 87,
+      "uid" : "3021b4e7efc52b47"
+    }, {
+      "title" : "Response",
+      "source" : "08ae39a8-49e3-4b80-8929-da450a0d0879-attachment.json",
+      "type" : "application/json",
+      "size" : 194,
+      "uid" : "75971f290b756f26"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

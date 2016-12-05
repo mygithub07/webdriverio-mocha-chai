@@ -1,0 +1,91 @@
+{
+  "uid" : "2d6b5fffd3067a79",
+  "name" : "should assert sub heading",
+  "title" : "should assert sub heading",
+  "time" : {
+    "start" : 1478552881874,
+    "stop" : 1478552881938,
+    "duration" : 64
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/b01c99dd-2719-4f09-89b9-efe20940cb19/elements",
+    "title" : "POST /wd/hub/session/b01c99dd-2719-4f09-89b9-efe20940cb19/elements",
+    "time" : {
+      "start" : 1478552881877,
+      "stop" : 1478552881898,
+      "duration" : 21
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "c7947cb4-0603-40f1-a2ff-aad6e9cdd977-attachment.json",
+      "type" : "application/json",
+      "size" : 139,
+      "uid" : "ec252b25f50cd92e"
+    }, {
+      "title" : "Response",
+      "source" : "c8a854ae-c012-434b-bde7-ea26a087ce86-attachment.json",
+      "type" : "application/json",
+      "size" : 245,
+      "uid" : "143dbc986ae57a21"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/b01c99dd-2719-4f09-89b9-efe20940cb19/element/1/text",
+    "title" : "GET /wd/hub/session/b01c99dd-2719-4f09-89b9-efe20940cb19/element/1/text",
+    "time" : {
+      "start" : 1478552881899,
+      "stop" : 1478552881931,
+      "duration" : 32
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "5cb77c26-56e6-4e55-9aa8-0f863aa3474c-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "d279eb3f80ba21"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"firefox\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

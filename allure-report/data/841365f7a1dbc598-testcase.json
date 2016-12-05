@@ -1,0 +1,121 @@
+{
+  "uid" : "841365f7a1dbc598",
+  "name" : "should click on  Browser menu",
+  "title" : "should click on  Browser menu",
+  "time" : {
+    "start" : 1478552867634,
+    "stop" : 1478552867897,
+    "duration" : 263
+  },
+  "summary" : {
+    "attachments" : 5,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "NoSuchElement: An element could not be located on the page using the given search parameters.\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.getText (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:67:14)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at elements(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - getText.js:51:17\n    at getText(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "time" : {
+      "start" : 1478552867636,
+      "stop" : 1478552867664,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "6afd1bd5-439f-48b6-b896-4884fba5a5ba-attachment.json",
+      "type" : "application/json",
+      "size" : 265,
+      "uid" : "678cda6e20d4f0c1"
+    }, {
+      "title" : "Response",
+      "source" : "f852dbdf-638a-4fc2-a98c-9a8772917be3-attachment.json",
+      "type" : "application/json",
+      "size" : 222,
+      "uid" : "7af0e42f1cce8af9"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element/2/click",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element/2/click",
+    "time" : {
+      "start" : 1478552867665,
+      "stop" : 1478552867801,
+      "duration" : 136
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "d5c2b9ff-1404-4264-a162-31a2b2f4f66a-attachment.json",
+      "type" : "application/json",
+      "size" : 195,
+      "uid" : "27fe97edc0fea413"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/elements",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/elements",
+    "time" : {
+      "start" : 1478552867852,
+      "stop" : 1478552867896,
+      "duration" : 44
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "327beb17-befb-4468-a97c-8920de3e5c83-attachment.json",
+      "type" : "application/json",
+      "size" : 232,
+      "uid" : "1f29dd270f708203"
+    }, {
+      "title" : "Response",
+      "source" : "abeb18ca-2c66-49a2-9c70-1c8b099dffd3-attachment.json",
+      "type" : "application/json",
+      "size" : 194,
+      "uid" : "ae074d63d887c34d"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

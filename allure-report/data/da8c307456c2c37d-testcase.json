@@ -1,0 +1,67 @@
+{
+  "uid" : "da8c307456c2c37d",
+  "name" : "should select 40",
+  "title" : "should select 40",
+  "time" : {
+    "start" : 1478552868354,
+    "stop" : 1478552868630,
+    "duration" : 276
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#chrome > div:nth-child(2) > div:nth-child(4)\"}",
+    "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#chrome > div:nth-child(2) > div:nth-child(4)\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:81:13)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#chrome > div:nth-child(2) > div:nth-child(4)\") - click.js:33:17\n    at click(\"#chrome > div:nth-child(2) > div:nth-child(4)\") - index.js:323:3"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2a33e3f4251fb38e",
+    "name" : "config page",
+    "title" : "config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "title" : "POST /wd/hub/session/eb5b7719-33ca-4ec8-ba22-7347903462da/element",
+    "time" : {
+      "start" : 1478552868357,
+      "stop" : 1478552868630,
+      "duration" : 273
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "91c14b5a-74e5-4b88-ae57-7f990a1ac984-attachment.json",
+      "type" : "application/json",
+      "size" : 93,
+      "uid" : "c0ef66d4e641abf1"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "config page"
+  }, {
+    "name" : "suite-name",
+    "value" : "config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

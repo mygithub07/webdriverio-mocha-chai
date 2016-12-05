@@ -1,0 +1,206 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "52547d7ecd638199",
+      "failure" : {
+        "message" : "An element could not be located on the page using the given search parameters.",
+        "stackTrace" : "NoSuchElement: An element could not be located on the page using the given search parameters.\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.getText (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:67:14)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at elements(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - getText.js:51:17\n    at getText(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "936205969b8d860e",
+        "name" : "should click on  Browser menu",
+        "title" : "should click on  Browser menu",
+        "time" : {
+          "start" : 1478552896298,
+          "stop" : 1478552896424,
+          "duration" : 126
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "7666050a2b513e12",
+        "name" : "should click on device menu",
+        "title" : "should click on device menu",
+        "time" : {
+          "start" : 1478552866375,
+          "stop" : 1478552866572,
+          "duration" : 197
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1686484d57834041",
+        "name" : "should click on  OS menu",
+        "title" : "should click on  OS menu",
+        "time" : {
+          "start" : 1478552867123,
+          "stop" : 1478552867317,
+          "duration" : 194
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "841365f7a1dbc598",
+        "name" : "should click on  Browser menu",
+        "title" : "should click on  Browser menu",
+        "time" : {
+          "start" : 1478552867634,
+          "stop" : 1478552867897,
+          "duration" : 263
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "a46d408d28bc32b2",
+      "failure" : {
+        "message" : "Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+        "stackTrace" : "RuntimeError: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown\n    at element(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - click.js:33:17\n    at click(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "979b8dce3648aea7",
+        "name" : "should click on chrome tab",
+        "title" : "should click on chrome tab",
+        "time" : {
+          "start" : 1478552896426,
+          "stop" : 1478552897160,
+          "duration" : 734
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "abf7d8c046d12f7d",
+      "failure" : {
+        "message" : "Element is not currently visible and so may not be interacted with\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+        "stackTrace" : "RuntimeError: Element is not currently visible and so may not be interacted with\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:81:13)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown\n    at elementIdClick(\"6\") - click.js:34:22"
+      },
+      "testCases" : [ {
+        "uid" : "4a720cdd69fd5736",
+        "name" : "should select 40",
+        "title" : "should select 40",
+        "time" : {
+          "start" : 1478552897161,
+          "stop" : 1478552897718,
+          "duration" : 557
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "82e32c517eb522f0",
+      "failure" : {
+        "message" : "Element is not clickable at point (675, 17). Other element would receive the click: <embed src=\"https://wiki-assets.saucelabs.com/ZeroClipboard.swf?noCache=1478552890676\" loop=\"false\" menu=\"false\" quality=\"best\" bgcolor=\"#ffffff\" name=\"global-zeroclipboard-flash-bridge\" allowscriptaccess=\"always\" allowfullscreen=\"false\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" flashvars=\"trustedOrigins=wiki.saucelabs.com%2C%2F%2Fwiki.saucelabs.com%2Chttps%3A%2F%2Fwiki.saucelabs.com\" scale=\"exactfit\" height=\"100%\" width=\"100%\">\nCommand duration or timeout: 86 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ad7b6b52-18e8-a94b-9205-696ba6b6fc3a",
+        "stackTrace" : "RuntimeError: Element is not clickable at point (675, 17). Other element would receive the click: <embed src=\"https://wiki-assets.saucelabs.com/ZeroClipboard.swf?noCache=1478552890676\" loop=\"false\" menu=\"false\" quality=\"best\" bgcolor=\"#ffffff\" name=\"global-zeroclipboard-flash-bridge\" allowscriptaccess=\"always\" allowfullscreen=\"false\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" flashvars=\"trustedOrigins=wiki.saucelabs.com%2C%2F%2Fwiki.saucelabs.com%2Chttps%3A%2F%2Fwiki.saucelabs.com\" scale=\"exactfit\" height=\"100%\" width=\"100%\">\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:96:13)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\nCommand duration or timeout: 86 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ad7b6b52-18e8-a94b-9205-696ba6b6fc3a\n    at elementIdClick(\"9\") - click.js:34:22"
+      },
+      "testCases" : [ {
+        "uid" : "48ad21b55ab3986e",
+        "name" : "should click on copy button",
+        "title" : "should click on copy button",
+        "time" : {
+          "start" : 1478552897894,
+          "stop" : 1478552898331,
+          "duration" : 437
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "670b067d71ed27d2",
+      "failure" : {
+        "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > div:nth-child(2)\"}",
+        "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > div:nth-child(2)\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:28:16)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > div:nth-child(2)\") - click.js:33:17\n    at click(\"#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > div:nth-child(2)\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "b70dacb7403884c4",
+        "name" : "should click selenium",
+        "title" : "should click selenium",
+        "time" : {
+          "start" : 1478552856288,
+          "stop" : 1478552866372,
+          "duration" : 10084
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "7dfda58d3d88b401",
+      "failure" : {
+        "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#desktop > div > div:nth-child(1) > div\"}",
+        "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#desktop > div > div:nth-child(1) > div\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:45:12)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#desktop > div > div:nth-child(1) > div\") - click.js:33:17\n    at click(\"#desktop > div > div:nth-child(1) > div\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "cda1a799290389b7",
+        "name" : "should select PC from menu",
+        "title" : "should select PC from menu",
+        "time" : {
+          "start" : 1478552866573,
+          "stop" : 1478552867122,
+          "duration" : 549
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "5decb80dff0dea24",
+      "failure" : {
+        "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span\"}",
+        "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:60:12)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span\") - click.js:33:17\n    at click(\"#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "3107b125117fc9ef",
+        "name" : "should select WinXP",
+        "title" : "should select WinXP",
+        "time" : {
+          "start" : 1478552867318,
+          "stop" : 1478552867634,
+          "duration" : 316
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "79a2d9be0491aca2",
+      "failure" : {
+        "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}",
+        "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - click.js:33:17\n    at click(\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "8d85701a66675fa",
+        "name" : "should click on chrome tab",
+        "title" : "should click on chrome tab",
+        "time" : {
+          "start" : 1478552867897,
+          "stop" : 1478552868354,
+          "duration" : 457
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "2b5bd60bfb66b570",
+      "failure" : {
+        "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#chrome > div:nth-child(2) > div:nth-child(4)\"}",
+        "stackTrace" : "RuntimeError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#chrome > div:nth-child(2) > div:nth-child(4)\"}\n    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)\n    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)\n    at Context.<anonymous> (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:81:13)\n    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24\n    - - - - -\n    at element(\"#chrome > div:nth-child(2) > div:nth-child(4)\") - click.js:33:17\n    at click(\"#chrome > div:nth-child(2) > div:nth-child(4)\") - index.js:323:3"
+      },
+      "testCases" : [ {
+        "uid" : "da8c307456c2c37d",
+        "name" : "should select 40",
+        "title" : "should select 40",
+        "time" : {
+          "start" : 1478552868354,
+          "stop" : 1478552868630,
+          "duration" : 276
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

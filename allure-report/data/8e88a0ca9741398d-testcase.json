@@ -1,0 +1,139 @@
+{
+  "uid" : "8e88a0ca9741398d",
+  "name" : "should click on  OS menu",
+  "title" : "should click on  OS menu",
+  "time" : {
+    "start" : 1478271807903,
+    "stop" : 1478271808087,
+    "duration" : 184
+  },
+  "summary" : {
+    "attachments" : 6,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a87fc0865a0eb7a9",
+    "name" : "config page config page",
+    "title" : "config page config page"
+  },
+  "steps" : [ {
+    "name" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element",
+    "title" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element",
+    "time" : {
+      "start" : 1478271807907,
+      "stop" : 1478271807938,
+      "duration" : 31
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "ff668631-24b3-419a-81d1-64279f729445-attachment.json",
+      "type" : "application/json",
+      "size" : 213,
+      "uid" : "647969c639dcbe05"
+    }, {
+      "title" : "Response",
+      "source" : "38362db9-6018-4b3c-af62-f0175f8b2744-attachment.json",
+      "type" : "application/json",
+      "size" : 222,
+      "uid" : "90ff496bbf9c607d"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/3/click",
+    "title" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/3/click",
+    "time" : {
+      "start" : 1478271807939,
+      "stop" : 1478271808006,
+      "duration" : 67
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "551d5f7e-867d-4e55-b4bb-8a1c03874192-attachment.json",
+      "type" : "application/json",
+      "size" : 196,
+      "uid" : "7e1bb4e0b8b7b3e5"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/elements",
+    "title" : "POST /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/elements",
+    "time" : {
+      "start" : 1478271808019,
+      "stop" : 1478271808055,
+      "duration" : 36
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Request",
+      "source" : "40a10255-f5e2-4aa2-b36e-56ccd576b356-attachment.json",
+      "type" : "application/json",
+      "size" : 127,
+      "uid" : "447723a91496e25a"
+    }, {
+      "title" : "Response",
+      "source" : "07069b05-876e-4a27-932b-36a86ca3c728-attachment.json",
+      "type" : "application/json",
+      "size" : 245,
+      "uid" : "4d886877f5e4bb4c"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "GET /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/4/attribute/class",
+    "title" : "GET /wd/hub/session/aa12c0c7-329f-4a9f-aa24-2a863ca1539c/element/4/attribute/class",
+    "time" : {
+      "start" : 1478271808062,
+      "stop" : 1478271808084,
+      "duration" : 22
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Response",
+      "source" : "840ff088-724e-4cf5-9b64-b2e77a3bb35b-attachment.json",
+      "type" : "application/json",
+      "size" : 203,
+      "uid" : "79026a1f891c2d6c"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "config page config page"
+  }, {
+    "name" : "suite-title",
+    "value" : "config page config page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "{\"maxInstances\":4,\"browserName\":\"chrome\"}",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "[\"/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js\"]",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

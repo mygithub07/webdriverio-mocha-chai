@@ -1,0 +1,290 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 24,
+      "passed" : 12,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 12
+    },
+    "stories" : [ {
+      "uid" : "17a3fc859847e397",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 24,
+        "passed" : 12,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 12
+      },
+      "testCases" : [ {
+        "uid" : "520f0981eb788305",
+        "name" : "should assert page title",
+        "title" : "should assert page title",
+        "time" : {
+          "start" : 1478552871321,
+          "stop" : 1478552880540,
+          "duration" : 9219
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ac5ab2892271e946",
+        "name" : "should assert sub heading",
+        "title" : "should assert sub heading",
+        "time" : {
+          "start" : 1478552880541,
+          "stop" : 1478552880615,
+          "duration" : 74
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "72cf877852d7e231",
+        "name" : "should click selenium",
+        "title" : "should click selenium",
+        "time" : {
+          "start" : 1478552884221,
+          "stop" : 1478552895151,
+          "duration" : 10930
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "49d480f0a1d1bff0",
+        "name" : "should click on device menu",
+        "title" : "should click on device menu",
+        "time" : {
+          "start" : 1478552895153,
+          "stop" : 1478552895341,
+          "duration" : 188
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "893535e61b7c7b4c",
+        "name" : "should select PC from menu",
+        "title" : "should select PC from menu",
+        "time" : {
+          "start" : 1478552895342,
+          "stop" : 1478552895720,
+          "duration" : 378
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5726e7df0d6ebb7a",
+        "name" : "should click on  OS menu",
+        "title" : "should click on  OS menu",
+        "time" : {
+          "start" : 1478552895721,
+          "stop" : 1478552896115,
+          "duration" : 394
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e902bc4aca58eac",
+        "name" : "should select WinXP",
+        "title" : "should select WinXP",
+        "time" : {
+          "start" : 1478552896116,
+          "stop" : 1478552896297,
+          "duration" : 181
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "936205969b8d860e",
+        "name" : "should click on  Browser menu",
+        "title" : "should click on  Browser menu",
+        "time" : {
+          "start" : 1478552896298,
+          "stop" : 1478552896424,
+          "duration" : 126
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "979b8dce3648aea7",
+        "name" : "should click on chrome tab",
+        "title" : "should click on chrome tab",
+        "time" : {
+          "start" : 1478552896426,
+          "stop" : 1478552897160,
+          "duration" : 734
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "4a720cdd69fd5736",
+        "name" : "should select 40",
+        "title" : "should select 40",
+        "time" : {
+          "start" : 1478552897161,
+          "stop" : 1478552897718,
+          "duration" : 557
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8681b4e8a39d2256",
+        "name" : "should click on java tab",
+        "title" : "should click on java tab",
+        "time" : {
+          "start" : 1478552897718,
+          "stop" : 1478552897894,
+          "duration" : 176
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "48ad21b55ab3986e",
+        "name" : "should click on copy button",
+        "title" : "should click on copy button",
+        "time" : {
+          "start" : 1478552897894,
+          "stop" : 1478552898331,
+          "duration" : 437
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d385796e27f0a531",
+        "name" : "should assert page title",
+        "title" : "should assert page title",
+        "time" : {
+          "start" : 1478552860527,
+          "stop" : 1478552881871,
+          "duration" : 21344
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2d6b5fffd3067a79",
+        "name" : "should assert sub heading",
+        "title" : "should assert sub heading",
+        "time" : {
+          "start" : 1478552881874,
+          "stop" : 1478552881938,
+          "duration" : 64
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b70dacb7403884c4",
+        "name" : "should click selenium",
+        "title" : "should click selenium",
+        "time" : {
+          "start" : 1478552856288,
+          "stop" : 1478552866372,
+          "duration" : 10084
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "7666050a2b513e12",
+        "name" : "should click on device menu",
+        "title" : "should click on device menu",
+        "time" : {
+          "start" : 1478552866375,
+          "stop" : 1478552866572,
+          "duration" : 197
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "cda1a799290389b7",
+        "name" : "should select PC from menu",
+        "title" : "should select PC from menu",
+        "time" : {
+          "start" : 1478552866573,
+          "stop" : 1478552867122,
+          "duration" : 549
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1686484d57834041",
+        "name" : "should click on  OS menu",
+        "title" : "should click on  OS menu",
+        "time" : {
+          "start" : 1478552867123,
+          "stop" : 1478552867317,
+          "duration" : 194
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "3107b125117fc9ef",
+        "name" : "should select WinXP",
+        "title" : "should select WinXP",
+        "time" : {
+          "start" : 1478552867318,
+          "stop" : 1478552867634,
+          "duration" : 316
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "841365f7a1dbc598",
+        "name" : "should click on  Browser menu",
+        "title" : "should click on  Browser menu",
+        "time" : {
+          "start" : 1478552867634,
+          "stop" : 1478552867897,
+          "duration" : 263
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "8d85701a66675fa",
+        "name" : "should click on chrome tab",
+        "title" : "should click on chrome tab",
+        "time" : {
+          "start" : 1478552867897,
+          "stop" : 1478552868354,
+          "duration" : 457
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "da8c307456c2c37d",
+        "name" : "should select 40",
+        "title" : "should select 40",
+        "time" : {
+          "start" : 1478552868354,
+          "stop" : 1478552868630,
+          "duration" : 276
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "39a5fc5bf4585282",
+        "name" : "should click on java tab",
+        "title" : "should click on java tab",
+        "time" : {
+          "start" : 1478552868631,
+          "stop" : 1478552868822,
+          "duration" : 191
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "82dcbaac9eec92a8",
+        "name" : "should click on copy button",
+        "title" : "should click on copy button",
+        "time" : {
+          "start" : 1478552868823,
+          "stop" : 1478552869093,
+          "duration" : 270
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,92 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 24,
+      "passed" : 12,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 12
+    },
+    "time" : {
+      "start" : 1478552856288,
+      "stop" : 1478552898331,
+      "duration" : 42043
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 4,
+      "message" : "An element could not be located on the page using the given search parameters.",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "Element is not currently visible and so may not be interacted with\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: driver.version: unknown",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "Element is not clickable at point (675, 17). Other element would receive the click: <embed src=\"https://wiki-assets.saucelabs.com/ZeroClipboard.swf?noCache=1478552890676\" loop=\"false\" menu=\"false\" quality=\"best\" bgcolor=\"#ffffff\" name=\"global-zeroclipboard-flash-bridge\" allowscriptaccess=\"always\" allowfullscreen=\"false\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" flashvars=\"trustedOrigins=wiki.saucelabs.com%2C%2F%2Fwiki.saucelabs.com%2Chttps%3A%2F%2Fwiki.saucelabs.com\" scale=\"exactfit\" height=\"100%\" width=\"100%\">\nCommand duration or timeout: 86 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'\nSystem info: host: 'Poonams-MacBook-Air.local', ip: '10.0.0.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ad7b6b52-18e8-a94b-9205-696ba6b6fc3a",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div:nth-child(1) > div.choice-buttons.choice-api > div:nth-child(2)\"}",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#desktop > div > div:nth-child(1) > div\"}",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span\"}",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > div > ul > li:nth-child(2) > a\"}",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#chrome > div:nth-child(2) > div:nth-child(4)\"}",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "config page",
+      "statistic" : {
+        "total" : 24,
+        "passed" : 12,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 12
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 24,
+        "passed" : 12,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 12
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
