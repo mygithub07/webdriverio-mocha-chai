@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1481054049991" stop="1481054120447">
+	<name>config page</name>
+	<title>config page</title>
+	<test-cases>
+		<test-case start="1481054050051" stop="1481054117477" status="passed">
+			<name>should click selenium</name>
+			<title>should click selenium</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054050057" stop="1481054092349" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/url</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/url</title>
+					<attachments>
+						<attachment title="Request" source="caefd641-3944-4ece-8d96-7a26fab876b1-attachment.json" type="application/json" size="80"/>
+						<attachment title="Response" source="5834f0ea-e310-4f26-bf6a-373c02394f75-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054092389" stop="1481054092608" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="93b156fd-8ed5-4169-bd94-9044b5c77c51-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="5052d05f-1234-43db-a43b-a89553fa5c03-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054092610" stop="1481054092878" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/0/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/0/click</title>
+					<attachments>
+						<attachment title="Response" source="d697ba52-697a-402f-8fee-8ed50f637ba3-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054092901" stop="1481054117447" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="5336df56-7e49-4d96-a94f-a488aeea7d53-attachment.json" type="application/json" size="153"/>
+						<attachment title="Response" source="7a8d638f-4a34-41b7-859b-8092d5d72a4d-attachment.json" type="application/json" size="245"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117450" stop="1481054117472" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/0/attribute/class</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/0/attribute/class</title>
+					<attachments>
+						<attachment title="Response" source="3aeb1336-c8e3-488c-98bd-b28d345efbe6-attachment.json" type="application/json" size="226"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054117479" stop="1481054117692" status="passed">
+			<name>should click on device menu</name>
+			<title>should click on device menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054117492" stop="1481054117509" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="e6d9817e-f012-4e68-bfb1-3c12145dc3b2-attachment.json" type="application/json" size="110"/>
+						<attachment title="Response" source="ef44675a-79f8-45f1-8e14-9da7e7c4a045-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117509" stop="1481054117642" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/1/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/1/click</title>
+					<attachments>
+						<attachment title="Response" source="46babf03-9cbe-46af-82d3-e355deaab5c7-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117651" stop="1481054117668" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="fa1de417-b6e0-4681-832d-0fa86716ddc7-attachment.json" type="application/json" size="87"/>
+						<attachment title="Response" source="f690896e-6ae7-4511-9eb3-8d953d613d78-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117668" stop="1481054117690" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/attribute/class</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/attribute/class</title>
+					<attachments>
+						<attachment title="Response" source="b865fcf0-2b9f-492c-a819-6cb12495ef70-attachment.json" type="application/json" size="205"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054117693" stop="1481054117997" status="passed">
+			<name>should select PC from menu</name>
+			<title>should select PC from menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054117694" stop="1481054117712" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="1cd3f1f6-8e4a-4978-8519-bf92b550199d-attachment.json" type="application/json" size="87"/>
+						<attachment title="Response" source="22d701d8-d743-4ba4-a880-c98a7d53efa0-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117712" stop="1481054117943" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/click</title>
+					<attachments>
+						<attachment title="Response" source="ee81df22-b262-4e46-b66e-a93cd11568b0-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117957" stop="1481054117974" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="4e3987be-cd40-46bf-b12a-d264b37884ec-attachment.json" type="application/json" size="87"/>
+						<attachment title="Response" source="ad36d809-c9fb-4b10-a6cf-ffe308b78e81-attachment.json" type="application/json" size="244"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054117974" stop="1481054117994" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/attribute/class</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/2/attribute/class</title>
+					<attachments>
+						<attachment title="Response" source="41937792-6b54-46cc-8b4d-07eddc4a5469-attachment.json" type="application/json" size="214"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054118000" stop="1481054118263" status="passed">
+			<name>should click on  OS menu</name>
+			<title>should click on  OS menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054118005" stop="1481054118022" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="94b6e64a-e83d-48d9-903f-a824f0cadd86-attachment.json" type="application/json" size="213"/>
+						<attachment title="Response" source="6c294b9f-3635-4d74-8a2b-33e9bed5f497-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054118022" stop="1481054118110" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/3/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/3/click</title>
+					<attachments>
+						<attachment title="Response" source="5d66daa6-d317-46fe-82b3-a2790178b18d-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054118118" stop="1481054118242" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="fc0760e1-d44e-4ac5-a0b1-919acf278c2b-attachment.json" type="application/json" size="127"/>
+						<attachment title="Response" source="879c4617-46c0-4b57-8d9e-24c559de4756-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054118244" stop="1481054118260" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/4/attribute/class</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/4/attribute/class</title>
+					<attachments>
+						<attachment title="Response" source="18d58373-92bb-4a90-8ca8-077c28cd2c57-attachment.json" type="application/json" size="203"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054118263" stop="1481054118425" status="passed">
+			<name>should select WinXP</name>
+			<title>should select WinXP</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054118265" stop="1481054118281" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="b23e99d1-f786-4a52-8e30-5bd7cbd43b8c-attachment.json" type="application/json" size="127"/>
+						<attachment title="Response" source="363f15ca-ccae-46d6-8072-24ddf8ebc7b0-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054118281" stop="1481054118418" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/4/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/4/click</title>
+					<attachments>
+						<attachment title="Response" source="430386fa-9774-40f8-9793-1cfe83d8df90-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054118427" stop="1481054119183" status="failed">
+			<name>should click on  Browser menu</name>
+			<title>should click on  Browser menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054118429" stop="1481054118452" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="87197e58-b325-41f5-93f8-2e8af38c7b24-attachment.json" type="application/json" size="265"/>
+						<attachment title="Response" source="7ed0a5c0-258d-46bc-82d7-696f3f156998-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054118453" stop="1481054119130" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/5/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/5/click</title>
+					<attachments>
+						<attachment title="Response" source="51dd73ea-0674-427c-94ea-e2ca7965da39-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119140" stop="1481054119156" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="d308a3bd-7048-474f-8e08-dadabf8a2af0-attachment.json" type="application/json" size="232"/>
+						<attachment title="Response" source="3b7cdfcf-715e-4160-a4b0-df1a6c9c71a2-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119159" stop="1481054119177" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/6/text</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/6/text</title>
+					<attachments>
+						<attachment title="Response" source="7d56eb12-8cff-4771-b391-c143ea8b281f-attachment.json" type="application/json" size="193"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>expected &apos;&apos; to equal &apos;Chrome&apos;</message>
+				<stack-trace>AssertionError: expected &apos;&apos; to equal &apos;Chrome&apos;
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:67:52)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481054119185" stop="1481054119576" status="broken">
+			<name>should click on chrome tab</name>
+			<title>should click on chrome tab</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054119188" stop="1481054119201" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="7e50ba61-0eef-470c-b0bf-5df340fb5375-attachment.json" type="application/json" size="232"/>
+						<attachment title="Response" source="10407c43-06d7-41b5-8e8f-621751faae24-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119201" stop="1481054119576" status="broken">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/6/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/6/click</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown</message>
+				<stack-trace>Error: Element is not currently visible and so may not be interacted with
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+    at elementIdClick(&quot;6&quot;) - click.js:20:22</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481054119576" stop="1481054119917" status="broken">
+			<name>should select 40</name>
+			<title>should select 40</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054119576" stop="1481054119577" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="933c4ef4-600e-4da7-aec7-3180844786dc-attachment.json" type="application/json" size="93"/>
+						<attachment title="Response" source="5c6840ab-2a07-4fb0-8219-feb9a4ece83a-attachment.json" type="application/json" size="221"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119577" stop="1481054119917" status="broken">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/7/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/7/click</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown</message>
+				<stack-trace>Error: Element is not currently visible and so may not be interacted with
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:81:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+    at elementIdClick(&quot;7&quot;) - click.js:20:22</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481054119917" stop="1481054120018" status="passed">
+			<name>should click on java tab</name>
+			<title>should click on java tab</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054119917" stop="1481054119918" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="9ac7e041-894b-45ba-ae6a-33b9fa2db4f2-attachment.json" type="application/json" size="173"/>
+						<attachment title="Response" source="16a3fd4d-b5be-4890-b847-772191dc5281-attachment.json" type="application/json" size="222"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119918" stop="1481054119979" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/8/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/8/click</title>
+					<attachments>
+						<attachment title="Response" source="1cddf889-70a9-4e60-927c-6597273b00af-attachment.json" type="application/json" size="195"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054119988" stop="1481054120000" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/elements</title>
+					<attachments>
+						<attachment title="Request" source="a938bfec-a5e7-48fc-b17e-0804ef360741-attachment.json" type="application/json" size="172"/>
+						<attachment title="Response" source="9e71a52e-a45e-4889-a781-afeeb5f22b39-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054120001" stop="1481054120014" status="passed">
+					<name>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/9/attribute/class</name>
+					<title>GET /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/9/attribute/class</title>
+					<attachments>
+						<attachment title="Response" source="d3eb85d4-fcf5-474e-9682-d3d0adaed805-attachment.json" type="application/json" size="208"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481054120018" stop="1481054120447" status="broken">
+			<name>should click on copy button</name>
+			<title>should click on copy button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481054120021" stop="1481054120037" status="passed">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element</title>
+					<attachments>
+						<attachment title="Request" source="720f534f-6464-4b7d-b7b3-488474a9cbb2-attachment.json" type="application/json" size="47"/>
+						<attachment title="Response" source="af8585be-0435-44b1-bee6-9345ed201801-attachment.json" type="application/json" size="223"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481054120038" stop="1481054120447" status="broken">
+					<name>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/10/click</name>
+					<title>POST /wd/hub/session/7dc3610f-beee-4705-be0d-5ba9c7a7ab62/element/10/click</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Element is not clickable at point (675, 17). Other element would receive the click: &lt;embed src=&quot;https://wiki-assets.saucelabs.com/ZeroClipboard.swf?noCache=1481054091353&quot; loop=&quot;false&quot; menu=&quot;false&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; name=&quot;global-zeroclipboard-flash-bridge&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; flashvars=&quot;trustedOrigins=wiki.saucelabs.com%2C%2F%2Fwiki.saucelabs.com%2Chttps%3A%2F%2Fwiki.saucelabs.com&quot; scale=&quot;exactfit&quot; height=&quot;100%&quot; width=&quot;100%&quot;&gt;
+Command duration or timeout: 70 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 68a83f6e-e7e4-d547-9545-8c378a460372</message>
+				<stack-trace>Error: Element is not clickable at point (675, 17). Other element would receive the click: &lt;embed src=&quot;https://wiki-assets.saucelabs.com/ZeroClipboard.swf?noCache=1481054091353&quot; loop=&quot;false&quot; menu=&quot;false&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; name=&quot;global-zeroclipboard-flash-bridge&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; flashvars=&quot;trustedOrigins=wiki.saucelabs.com%2C%2F%2Fwiki.saucelabs.com%2Chttps%3A%2F%2Fwiki.saucelabs.com&quot; scale=&quot;exactfit&quot; height=&quot;100%&quot; width=&quot;100%&quot;&gt;
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:96:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+Command duration or timeout: 70 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;Poonams-MacBook-Air.local&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.4, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 68a83f6e-e7e4-d547-9545-8c378a460372
+    at elementIdClick(&quot;10&quot;) - click.js:20:22</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

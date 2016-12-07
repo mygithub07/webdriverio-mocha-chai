@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1481128662673" stop="1481128776904">
+	<name>config page</name>
+	<title>config page</title>
+	<test-cases>
+		<test-case start="1481128662721" stop="1481128741332" status="passed">
+			<name>should assert page title</name>
+			<title>should assert page title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128662753" stop="1481128741179" status="passed">
+					<name>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/url</name>
+					<title>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/url</title>
+					<attachments>
+						<attachment title="Request" source="c48d322b-4c7d-458f-83ab-eb92e9fe1461-attachment.json" type="application/json" size="80"/>
+						<attachment title="Response" source="0517bd71-f2b4-47e0-ac4c-d726568da506-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128741214" stop="1481128741299" status="passed">
+					<name>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/elements</name>
+					<title>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/elements</title>
+					<attachments>
+						<attachment title="Request" source="a1d1ad13-b227-4cf8-8a5b-d53e3cbd59c5-attachment.json" type="application/json" size="63"/>
+						<attachment title="Response" source="e01b887e-fec6-4d4b-b8d1-cfd59b56a79d-attachment.json" type="application/json" size="245"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128741302" stop="1481128741327" status="passed">
+					<name>GET /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/element/0/text</name>
+					<title>GET /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/element/0/text</title>
+					<attachments>
+						<attachment title="Response" source="a12acfa6-fa08-402c-97f5-b7f8d208251b-attachment.json" type="application/json" size="213"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481128741334" stop="1481128776903" status="passed">
+			<name>should assert sub heading</name>
+			<title>should assert sub heading</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;firefox&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128741338" stop="1481128741365" status="passed">
+					<name>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/elements</name>
+					<title>POST /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/elements</title>
+					<attachments>
+						<attachment title="Request" source="1963684e-36fd-4af7-8e70-c4ad4ded35c4-attachment.json" type="application/json" size="139"/>
+						<attachment title="Response" source="14c251ac-ff18-4aff-a274-c147bf915a26-attachment.json" type="application/json" size="246"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128741368" stop="1481128776894" status="passed">
+					<name>GET /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/element/1/text</name>
+					<title>GET /wd/hub/session/218baa40-9804-4da9-b520-9eb2c7bd8bea/element/1/text</title>
+					<attachments>
+						<attachment title="Response" source="bc3671e6-666f-4e51-aba2-8529064265d9-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

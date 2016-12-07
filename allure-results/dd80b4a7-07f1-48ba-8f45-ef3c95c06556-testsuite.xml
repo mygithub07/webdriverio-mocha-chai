@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1481128655478" stop="1481128729647">
+	<name>config page</name>
+	<title>config page</title>
+	<test-cases>
+		<test-case start="1481128655629" stop="1481128729602" status="passed">
+			<name>should assert page title</name>
+			<title>should assert page title</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128655636" stop="1481128729428" status="passed">
+					<name>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/url</name>
+					<title>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/url</title>
+					<attachments>
+						<attachment title="Request" source="fab4e344-0a57-4a3e-8f59-f485dec8c8d8-attachment.json" type="application/json" size="80"/>
+						<attachment title="Response" source="644cd017-6453-42dc-9da9-8ae499c8ac8b-attachment.json" type="application/json" size="194"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128729459" stop="1481128729549" status="passed">
+					<name>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/elements</name>
+					<title>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/elements</title>
+					<attachments>
+						<attachment title="Request" source="7981a1ef-9094-4edd-9b10-7ad617af3bd3-attachment.json" type="application/json" size="63"/>
+						<attachment title="Response" source="f1bc9dca-7169-4983-9da4-7f831f8ba14f-attachment.json" type="application/json" size="245"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128729550" stop="1481128729597" status="passed">
+					<name>GET /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/element/0/text</name>
+					<title>GET /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/element/0/text</title>
+					<attachments>
+						<attachment title="Response" source="0f878029-ed98-4861-9a75-8f26d21f861e-attachment.json" type="application/json" size="214"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1481128729605" stop="1481128729642" status="broken">
+			<name>should assert sub heading</name>
+			<title>should assert sub heading</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128729608" stop="1481128729635" status="passed">
+					<name>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/elements</name>
+					<title>POST /wd/hub/session/009c3b5e-5c51-4f43-aa81-c95154e62085/elements</title>
+					<attachments>
+						<attachment title="Request" source="f31c79d7-8a39-44b6-97eb-0e4f4e750e91-attachment.json" type="application/json" size="139"/>
+						<attachment title="Response" source="29873b07-bd19-4bb0-9264-c816a6952e91-attachment.json" type="application/json" size="193"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters (&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; h3&quot;).</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters (&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; h3&quot;).
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.getText (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po-2.js:26:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at elements(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; h3&quot;) - getText.js:18:17
+    at getText(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; h3&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

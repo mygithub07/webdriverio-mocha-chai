@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1481128655476" stop="1481128739840">
+	<name>config page</name>
+	<title>config page</title>
+	<test-cases>
+		<test-case start="1481128655646" stop="1481128735295" status="broken">
+			<name>should click selenium</name>
+			<title>should click selenium</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128655646" stop="1481128734248" status="passed">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/url</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/url</title>
+					<attachments>
+						<attachment title="Request" source="83f2a122-b2ed-470a-b22e-f4e59d4bfebb-attachment.json" type="application/json" size="80"/>
+						<attachment title="Response" source="9c317482-c18c-417e-af81-5a8302b843d5-attachment.json" type="application/json" size="196"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1481128734266" stop="1481128735295" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="eab70c42-6bbe-4e13-a98c-0e092229cae0-attachment.json" type="application/json" size="153"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:28:16)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; div:nth-child(2)&quot;) - click.js:12:17
+    at click(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div:nth-child(1) &gt; div.choice-buttons.choice-api &gt; div:nth-child(2)&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128735297" stop="1481128735744" status="broken">
+			<name>should click on device menu</name>
+			<title>should click on device menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128735300" stop="1481128735744" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="03eeaaff-d704-4b1c-a09d-155560097d4c-attachment.json" type="application/json" size="110"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:37:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;button.btn.btn-default.btn-display.select-logo.select-a-device&quot;) - click.js:12:17
+    at click(&quot;button.btn.btn-default.btn-display.select-logo.select-a-device&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128735745" stop="1481128736113" status="broken">
+			<name>should select PC from menu</name>
+			<title>should select PC from menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128735748" stop="1481128736113" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="9b7536ce-a279-4480-85c8-5b512534dd7b-attachment.json" type="application/json" size="87"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:45:12)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#desktop &gt; div &gt; div:nth-child(1) &gt; div&quot;) - click.js:12:17
+    at click(&quot;#desktop &gt; div &gt; div:nth-child(1) &gt; div&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128736115" stop="1481128736502" status="broken">
+			<name>should click on  OS menu</name>
+			<title>should click on  OS menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128736117" stop="1481128736502" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="8a6615b3-eeb7-4559-bd91-4629fc76552e-attachment.json" type="application/json" size="213"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:52:12)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.choice-os.configurator-select.col-md-12 &gt; spc-select &gt; div &gt; button.btn.btn-default.btn-display.select-logo.select&quot;) - click.js:12:17
+    at click(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.choice-os.configurator-select.col-md-12 &gt; spc-select &gt; div &gt; button.btn.btn-default.btn-display.select-logo.select&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128736505" stop="1481128736897" status="broken">
+			<name>should select WinXP</name>
+			<title>should select WinXP</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128736509" stop="1481128736897" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="326ccd45-764c-43fd-a299-ed05ecc7be77-attachment.json" type="application/json" size="127"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:60:12)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#operating-system &gt; div &gt; div:nth-child(5) &gt; div &gt; span.el-text.ng-scope &gt; span&quot;) - click.js:12:17
+    at click(&quot;#operating-system &gt; div &gt; div:nth-child(5) &gt; div &gt; span.el-text.ng-scope &gt; span&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128736898" stop="1481128737279" status="broken">
+			<name>should click on  Browser menu</name>
+			<title>should click on  Browser menu</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128736900" stop="1481128737279" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="66810887-e437-4db3-95c6-11e5064590dd-attachment.json" type="application/json" size="265"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:66:14)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.configurator-select.col-md-12.webapp-browsers &gt; div.choice-browser.fadein.fadeout &gt; spc-select &gt; div &gt; button.btn.btn-default.btn-display.select-logo.select-a-browser&quot;) - click.js:12:17
+    at click(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.configurator-select.col-md-12.webapp-browsers &gt; div.choice-browser.fadein.fadeout &gt; spc-select &gt; div &gt; button.btn.btn-default.btn-display.select-logo.select-a-browser&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128737280" stop="1481128737760" status="broken">
+			<name>should click on chrome tab</name>
+			<title>should click on chrome tab</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128737285" stop="1481128737760" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="979261df-7711-41e1-bf4a-bdb9567438d2-attachment.json" type="application/json" size="232"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:73:15)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.configurator-select.col-md-12.webapp-browsers &gt; div.choice-browser.fadein.fadeout &gt; spc-select &gt; div &gt; div &gt; ul &gt; li:nth-child(2) &gt; a&quot;) - click.js:12:17
+    at click(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.configurator-select.col-md-12.webapp-browsers &gt; div.choice-browser.fadein.fadeout &gt; spc-select &gt; div &gt; div &gt; ul &gt; li:nth-child(2) &gt; a&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128737762" stop="1481128738315" status="broken">
+			<name>should select 40</name>
+			<title>should select 40</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128737765" stop="1481128738315" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="9e0bd950-d78c-4808-b36b-66c905b6f4e7-attachment.json" type="application/json" size="93"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:81:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#chrome &gt; div:nth-child(2) &gt; div:nth-child(4)&quot;) - click.js:12:17
+    at click(&quot;#chrome &gt; div:nth-child(2) &gt; div:nth-child(4)&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128738316" stop="1481128738980" status="broken">
+			<name>should click on java tab</name>
+			<title>should click on java tab</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128738318" stop="1481128738980" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="d6d7fcbc-36a0-4a9d-86d2-819c1f1513d9-attachment.json" type="application/json" size="173"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:89:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.choice-code.configurator-select.col-md-12 &gt; div &gt; ul &gt; li:nth-child(1) &gt; a&quot;) - click.js:12:17
+    at click(&quot;#main-content &gt; div &gt; ng-view &gt; div &gt; div.spc-item.choice-code.configurator-select.col-md-12 &gt; div &gt; ul &gt; li:nth-child(1) &gt; a&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1481128738984" stop="1481128739839" status="broken">
+			<name>should click on copy button</name>
+			<title>should click on copy button</title>
+			<labels>
+			</labels>
+			<parameters>
+				<parameter kind="environment-variable" name="capabilities" value="{&quot;maxInstances&quot;:4,&quot;browserName&quot;:&quot;chrome&quot;}"/>
+				<parameter kind="environment-variable" name="spec files" value="[&quot;/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js&quot;]"/>
+			</parameters>
+			<steps>
+				<step start="1481128738987" stop="1481128739839" status="broken">
+					<name>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</name>
+					<title>POST /wd/hub/session/d77549f1-ec02-44c3-addf-75fc9f5f9eb1/element</title>
+					<attachments>
+						<attachment title="Request" source="5a75c9c9-2ca0-4472-b839-4d89316b220d-attachment.json" type="application/json" size="47"/>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>An element could not be located on the page using the given search parameters.</message>
+				<stack-trace>Error: An element could not be located on the page using the given search parameters.
+    at Object.Future.wait (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/node_modules/fibers/future.js:449:15)
+    at Object.click (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:345:27)
+    at Context.&lt;anonymous&gt; (/Users/hanu/Desktop/amit/webdriverio-mocha-chai/test/specs/mocha-test-po.js:96:13)
+    at /Users/hanu/Desktop/amit/webdriverio-mocha-chai/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:579:24
+    - - - - -
+    at element(&quot;#copy-code&quot;) - click.js:12:17
+    at click(&quot;#copy-code&quot;) - index.js:323:3</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
