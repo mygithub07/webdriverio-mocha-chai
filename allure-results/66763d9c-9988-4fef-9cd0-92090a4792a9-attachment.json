@@ -1,4 +1,0 @@
-{
-    "using": "css selector",
-    "value": "#main-content > div > ng-view > div > div.spc-item.choice-os.configurator-select.col-md-12 > spc-select > div > button.btn.btn-default.btn-display.select-logo.select"
-}

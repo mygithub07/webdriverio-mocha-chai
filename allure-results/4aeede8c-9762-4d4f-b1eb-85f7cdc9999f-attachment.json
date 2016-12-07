@@ -1,4 +1,0 @@
-{
-    "using": "css selector",
-    "value": "#main-content > div > ng-view > div > div.spc-item.configurator-select.col-md-12.webapp-browsers > div.choice-browser.fadein.fadeout > spc-select > div > button.btn.btn-default.btn-display.select-logo.select-a-browser"
-}

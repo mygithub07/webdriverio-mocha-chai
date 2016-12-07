@@ -1,4 +1,0 @@
-{
-    "using": "css selector",
-    "value": "#operating-system > div > div:nth-child(5) > div > span.el-text.ng-scope > span"
-}
