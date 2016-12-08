@@ -9,6 +9,7 @@
   2. check "Provide Node & npm bin/ folder to PATH" in Build Environment
   3. Add build step "execute shell" and add 
     `export PATH=/usr/local/bin`
+    
     `grunt`
    4. add post build actions "Allure report"   
       - provide `./allure-results` under Results
