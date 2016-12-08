@@ -1,7 +1,7 @@
 {
   "name": "wdio-demo",
   "version": "1.0.0",
-  "description": "demo project to test WebdriverIO integration with Jenkins",
+  "description": "end to end webdriverio-mocha-chai-jenkins-allure setup",
   "main": "index.js",
   "scripts": {
     "test": "wdio ./wdio.conf.js"

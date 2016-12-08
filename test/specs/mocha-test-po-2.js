@@ -1,4 +1,4 @@
-var HomePageObject = require("./page-objects/ConfigPage-copy.js")
+var HomePageObject = require("./page-objects/ConfigPage.js")
 
 describe("config page", function() {
     

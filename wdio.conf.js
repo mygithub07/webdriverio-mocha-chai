@@ -13,8 +13,7 @@ exports.config = {
      * specify test files
      */
    specs: [
-      //'./test/specs/mocha-test.js',
-      //'./test/specs/mocha-test-po.js'
+  
       './test/specs/mocha-test-po.js',
       './test/specs/mocha-test-po-2.js'
       
