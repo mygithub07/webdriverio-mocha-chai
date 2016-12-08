@@ -8,6 +8,7 @@
   1. provide this repository as git repo in SCM
   2. check "Provide Node & npm bin/ folder to PATH" in Build Environment
   3. Add build step "execute shell" and add 
+    
     `export PATH=/usr/local/bin`
     
     `grunt`
