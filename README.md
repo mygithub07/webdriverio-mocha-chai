@@ -8,11 +8,11 @@
   1. provide this repository as git repo in SCM
   2. check "Provide Node & npm bin/ folder to PATH" in Build Environment
   3. Add build step "execute shell" and add 
-    export PATH=/usr/local/bin
-    grunt
+    `export PATH=/usr/local/bin`
+    `grunt`
    4. add post build actions "Allure report"   
-      - provide "./allure-results" under Results
-      - provide "variant" in Key and "${VARIANT}" in value under properties
+      - provide `./allure-results` under Results
+      - provide `variant` in Key and `${VARIANT}` in value under properties
 - Once everything is saved in Jenkins, build the project. You should see your tests running.
 - For allure reports, if you get any error upon clicking allure report link and report seems broken, run these command in Jenkins--> Manage jenkins--> script console.
 
