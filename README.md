@@ -1,5 +1,5 @@
 
-- This is an example (setup was on mac) to show browser automation with webdriverio using mocha framework and chai assertions (BDD style). I've build it so it uses page objects. 
+- This is an example (setup was on mac) to show browser automation with webdriverio using mocha framework, chai for assertions (BDD style), Jenkins for CI and allure for reporting. I've build it so it uses page objects (in webdriverio-mocha-chai/test/specs/page-objects/)
 - Make sure webdriverio,wdio-mocha-framewok, chai, grunt-webdriver  and wdio-allure-reporter  are installed( at same locations locally) . Mine was installed locally in node_modules
 - Before running test, start selenium server as usual(this will work for both standalone selenium server and selenium grid) This is required for webdriverio.
 - Download contents in a folder
