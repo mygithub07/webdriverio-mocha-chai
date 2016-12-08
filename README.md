@@ -17,7 +17,6 @@
 - For allure reports, if you get any error upon clicking allure report link and report seems broken, run these command in Jenkins--> Manage jenkins--> script console.
 
 `System.setProperty("jenkins.model.DirectoryBrowserSupport.CSP", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';")
-
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline';")`
    
 
