@@ -26,13 +26,15 @@ exports.config = {
     /**
      * capabilities
      */
-    capabilities: [ {
+    capabilities: [ 
+    
+    /*{
         maxInstances: 4,
         browserName: 'firefox',
-     /*   specs: [
+        specs: [
             './test/specs/mocha-test-po-copy.js'
-        ]*/
-    }, 
+        ]
+    }, */
    {
         maxInstances: 4,
         browserName: 'chrome',
