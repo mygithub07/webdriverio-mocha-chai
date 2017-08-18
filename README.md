@@ -13,7 +13,7 @@
     `export PATH=/usr/local/bin`
     
     `grunt`
-   4. add post build actions "Allure report"   
+  4. add post build actions "Allure report"   
       - provide `./allure-results` under Results
       - provide `variant` in Key and `${VARIANT}` in value under properties
 - Once everything is saved in Jenkins, build the project. You should see your tests running.
